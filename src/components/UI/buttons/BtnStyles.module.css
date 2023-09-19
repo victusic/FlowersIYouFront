@@ -1,0 +1,176 @@
+.yellow_button{
+    background: var(--yellow);
+    color: var(--dark);
+}
+
+.yellow_button:hover{
+    background: var(--yellow_hover);
+}
+
+.yellow_button:active{
+    background: var(--yellow_active);
+}
+
+.yellow_button:disabled{
+    background: var(--yellow_disabled);
+}
+
+.purple_button{
+    background: var(--darkpurple);
+    color: var(--white);
+}
+
+.purple_button:hover{
+    background: var(--purple_hover);
+}
+
+.purple_button:active{
+    background: var(--purple_active);
+}
+
+.purple_button:disabled{
+    background: var(--purple_disabled);
+}
+
+.gray_button{
+    background: var(--lightgray);
+    color: var(--lightpurple);
+}
+
+.gray_button:hover{
+    background: var(--gray_hover);
+}
+
+.gray_button:active{
+    background: var(--gray_active);
+}
+
+.gray_button:disabled{
+    background: var(--gray_disablede);
+}
+
+.nav_light_button{
+    color: var(--dark);
+    opacity: 0.8;
+}
+
+.nav_light_button:hover{
+    border-bottom: 1px solid var(--dark);
+    /*background-color: red;*/
+}
+
+.nav_light_button:active{
+    border-bottom: 2px solid var(--dark);
+}
+
+.nav_light_button:disabled{
+    opacity: 0.4;
+}
+
+/*Каталог*/
+.collect_button_style{
+    width: 92px;
+    height: 32px;
+    border-radius: 9px;
+    font-size: 12px;
+}
+
+.choise_button_style{
+    width: 92px;
+    height: 32px;
+
+    border-radius: 9px;
+    font-size: 12px;
+}
+
+
+/*навигация*/
+
+/*стандартизирующие ширину контейнеры*/
+
+.navigate_box_for_button_style{
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.link_button_style{
+    width: auto;
+    height: 20px;
+    background: transparent;
+    font-style: normal;
+    font-size: 16px;
+    padding: 0;
+    border: none;
+    font-family: 'Montserrat';
+    text-align: center;
+    /*background-color: blueviolet;*/
+}
+
+/*Аккаунт*/
+
+
+
+.login_header_button_style{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.checkout_button_style{
+    width: 233px;
+    height: 34px;
+    border-radius: 7px;
+    font-style: bolder;
+}
+
+.editprofileorderhistory_btn_style{
+    width: 228px;
+    height: 20px;
+    border-radius: 6px;
+    font-size: 8px;
+}
+
+.goToCatalogAboutUs_button_style{
+    border-radius:14px;
+    width: 373px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.gotocatalogaboutdelivery_btn{
+    width: 265px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.select_btn_style{
+    width: 94px;
+    height: 24px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.addtocart_button_style{
+    width: 326px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.noAccountSignUp_button_style:hover{
+    border-bottom: 1px solid var(--darkpurple);
+}
+
+.noAccountSignUp_button_style:active{
+    border-bottom: 1px dashed var(--darkpurple);
+}
+
+

@@ -1,0 +1,57 @@
+.classic_input_style{
+    padding: 6px 8px;
+    width: 260px;
+    height: 34px;
+
+    background: transparent;
+    color: var(--lightpurple);
+
+    border: 1px solid var(--lightpurple);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.classic_input_style:hover{
+    border: 1px solid var(--darkpurple);
+}
+
+.classic_input_style:focus{
+    border: 1px solid var(--darkpurple);
+}
+
+.classic_input_style:active{
+    border: 1px solid var(--yellow);
+}
+
+.classic_input_style:disabled{
+    border: 1px solid var(--lightpurple);
+}
+
+
+.playa_input_style{
+    width: 260px;
+    height: 50px;
+}
+
+.text_on_input_style{
+    width: auto;
+    height: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 12px;
+
+    color: var(--lightpurple);
+}
+
+.LoginInput{
+    position: absolute;
+    left: 18px;
+    top: 120px;
+}
+
+.PasswordInput{
+    position: absolute;
+    left: 18px;
+    bottom: 104px;
+}
+

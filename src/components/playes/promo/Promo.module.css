@@ -1,0 +1,42 @@
+.playa_promo_style{
+    width: auto;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    background: var(--yellow);
+}
+
+.plate{
+    position: relative;
+    width: 1170px;
+    height: auto;
+}
+
+.inline_style{
+    position: absolute;
+    width: 1170px;
+    height: 32px;
+    left: 0px;
+    top: 21.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.promo_text_style{
+    width: fit-content;
+    height: 22px;
+    margin-top: 5px;
+    margin-right: 15px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+
+    color: #2D2D2F;
+}

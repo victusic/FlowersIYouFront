@@ -1,0 +1,150 @@
+.playa_reviews_style{
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.plate{
+    position: relative;
+    width: 1170px;
+    height: auto;
+    /*background-color: red;*/
+    display: flex;
+}
+
+.UI_kit_buttons{
+    margin-top: 15px;
+    width: 600px;
+    height: 250px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.buttons_title_plate{
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Montserrat";
+}
+
+.buttons_plate{
+    width: 150px;
+    height: 200px;
+    /*background-color: blueviolet;*/
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    /*background-color: black;*/
+    
+}
+
+.kit_button{
+    width: 110.15px;
+    height: 41px;
+
+    border-radius: 15px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.link_kit_button{
+    width: auto;
+    margin-left: 50px;
+    height: 20px;
+    font-style: normal;
+    font-size: 16px;
+    padding: 0;
+    opacity: 0.8;
+}
+
+.UI_kit_inputs{
+    margin-left: 100px;
+    margin-top: 15px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.UI_kit_dop
+{
+   position: absolute;
+   top: 300px;
+    width: 140px;
+    height: 150px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.check_base_style{
+    width: 100px;
+    height: 120px;
+    margin-left: 20px;
+    background-color: red;
+/*    display: flex;
+    flex-wrap: wrap;*/
+}
+
+.option {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.check {
+    padding-left: 20px;
+}
+
+.check_input {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.check_box {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -22px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    box-shadow: 0 0 0 2px #8374D5;
+}
+
+/* Checked */
+
+.check_input:checked + .check_box {
+    background-color: #8374D5;
+    background-image: url(check.svg);
+}
+
+/* Hover */
+
+.check_input:hover + .check_box {
+    box-shadow:0 0 0 2px #6664B2;
+}
+
+/* Focused */
+
+.check_input:focus + .check_box {
+    box-shadow:0 0 0 2px #000000;
+}
+
+/* Disabled */
+
+.check_input:disabled + .check_box {
+    box-shadow: 0 0 0 2px #cdc7ee;
+}
+
+.check_input:checked:disabled + .check_box {
+    background-color: #cdc7ee;
+}

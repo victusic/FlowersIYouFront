@@ -1,0 +1,38 @@
+.footer_navigate_box_for_button_style{
+    width: 95px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_navigate_button_style{
+    width: auto;
+    height: 24px;
+    background: transparent;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    text-align: center;
+}
+
+.nav_dark_button{
+    background: transparent;
+    color: var(--lightgray);
+}
+
+.nav_dark_button:hover{
+    border-bottom: 1px solid var(--lightgray);
+}
+
+.nav_dark_button:active{
+    border-bottom: 2px solid var(--lightgray);
+}
+
+.nav_dark_button:disabled{
+    background: var(--lightgray);
+}

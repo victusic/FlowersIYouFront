@@ -1,0 +1,23 @@
+:root{
+	--elpurple: #9C67C3; 
+    --lightpurple: #8374D5; 
+    --darkpurple: #6664B2; 
+    --yellow: linear-gradient(86.5deg, #F4C82E 10.61%, #FFEC33 84.67%); 
+    --lightgray: #F1F1F1; 
+    --white: #FFFFFF; 
+    --dark: #2D2D2F;
+    --mediumdarkpurple: #682F5A; 
+	--fog: rgba(45, 45, 47, 0.78);
+
+    /*Для кнопок*/
+    --yellow_hover: linear-gradient(86.5deg, #FFDD65 10.61%, #FFE700 65%, #FFEC33 84.67%);
+    --yellow_active: #FFE700;
+
+    --purple_hover: #5e49d4;
+    --purple_active: #7b2bfd;
+
+    --gray_hover: #ECE8E8;
+    --gray_active: #D3D3D3;
+
+    --nav_disabled: rgba(45, 45, 47, 1);
+}

@@ -1,0 +1,16 @@
+.footer_info_box_for_button_style{
+    width: 150px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_info_button_style{
+    width: auto;
+    height: 16px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}

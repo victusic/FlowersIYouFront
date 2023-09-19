@@ -1,0 +1,14 @@
+.playa{
+    width: auto;
+    height: 20px;
+    /*background-color: aqua;*/
+    margin-top: 18px;
+}
+
+.navigate_line_style{
+    width: 629px;
+    height: 20px;
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: space-between;
+}

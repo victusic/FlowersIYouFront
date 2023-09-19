@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    cursor: pointer;
+}
+
+input[type=button]{
+    border: none;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+button{
+    border: none;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.yellow_button{
+    background: var(--yellow);
+    color: var(--dark);
+}
+
+.yellow_button:hover{
+    background: var(--yellow_hover);
+}
+
+/*.yellow_button:focus{
+    background: var(--yellow_hover);
+}*/
+
+.yellow_button:active{
+    background: var(--yellow_active);
+}
+
+.yellow_button:disabled{
+    background: var(--yellow_hover);
+    opacity: 0.6;
+}
+
+.purple_button{
+    background: var(--darkpurple);
+    color: var(--white);
+}
+
+.purple_button:hover{
+    background: var(--purple_hover);
+}
+
+/*.purple_button:focus{
+    background: var(--purple_hover);
+}*/
+
+.purple_button:active{
+    background: var(--purple_active);
+}
+
+.purple_button:disabled{
+    background: var(--purple_hover);
+    opacity: 0.6;
+}
+
+.gray_button{
+    background: var(--lightgray);
+    color: var(--lightpurple);
+}
+
+.gray_button:hover{
+    background: var(--gray_hover);
+}
+
+/*.gray_button:focus{
+    background: var(--gray_hover);
+}*/
+
+.gray_button:active{
+    background: var(--gray_active);
+}
+
+.gray_button:disabled{
+    background: var(--gray_hover);
+    opacity: 0.6;
+}
+
+.nav_light_button{
+    color: var(--dark);
+    opacity: 0.8;
+}
+
+.nav_light_button:hover{
+    border-bottom: 1px solid var(--dark);
+}
+
+/*.nav_light_button:focus{
+    border-bottom: 1px solid var(--dark);
+}*/
+
+.nav_light_button:active{
+    font-weight: 600;
+    border: none;
+}
+
+.nav_light_button:disabled{
+    border: none;
+    opacity: 0.4;
+}
+
+.nav_dark_button{
+    background: transparent;
+    color: var(--lightgray);
+}
+
+.nav_dark_button:hover{
+    border-bottom: 1px solid var(--lightgray);
+}
+
+/*.nav_dark_button:focus{
+    border-bottom: 1px solid var(--lightgray);
+}*/
+
+.nav_dark_button:active{
+    font-weight: 800;
+    border: none;
+}
+
+.nav_dark_button:disabled{
+    border: none;
+    opacity: 0.4;
+}
+
+.fog{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 400;
+    background-color: var(--fog);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

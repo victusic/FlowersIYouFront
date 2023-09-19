@@ -1,0 +1,124 @@
+.playa_footer_style{
+    background-color: var(--dark);
+    width: auto;
+    height: 164px;
+    display: flex;
+    justify-content: center;
+}
+
+.plate{
+    position: relative;
+    width: 1170px;
+    height: auto;
+}
+
+.line1_style{
+    position: absolute;
+    width: 1170px;
+    height: 47px;
+    top: 16px;
+}
+
+.line2_style{
+    position: absolute;
+    width: 1167px;
+    height: 0px;
+    bottom: 70px;
+    border: 1px solid var(--white);
+}
+
+.line3_style{
+    position: absolute;
+    width: 1170px;
+    height: 28px;
+    bottom: 20px;
+}
+
+.navigate_footer_btns_styles{
+    position: absolute;
+    width: 408px;
+    left: -12px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.citate_footer_style{
+    position: absolute;
+    width: 206px;
+    height: 28px;
+    right: 0px;
+    top: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: var(--white);
+}
+
+.citate_autor_style{
+    position: absolute;
+    width: 103px;
+    height: 13px;
+    right: 0px;
+    bottom: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.back_txt_style{
+    position: absolute;
+    width: 213px;
+    height: 28px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: var(--white);
+}
+
+.documentation_buttons_style{
+    position: absolute;
+    width: 376px;
+    height: 16px;
+    left: 285px;
+    top: 6px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail_footer_style{
+    position: absolute;
+    width: 186px;
+    height: 16px;
+    right: 0px;
+    top: 6px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: var(--white);
+}
+

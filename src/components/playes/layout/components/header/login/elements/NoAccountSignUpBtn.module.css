@@ -1,0 +1,32 @@
+.noAccountSignUp_button_style{
+    position: absolute;
+    width: 226px;
+    height: 20px;
+    left: 35px;
+    bottom: 11px;
+    
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    background-color: var(--white);
+    color: var(--lightpurple);
+}
+
+.noAccountSignUp_button_style:hover{
+    color: var(--darkpurple);
+}
+.noAccountSignUp_button_style:focus{
+    color: var(--darkpurple);
+}
+
+.noAccountSignUp_button_style:active{
+    color: var(--mediumdarkpurple);
+}
+

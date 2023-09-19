@@ -1,0 +1,61 @@
+.levitate{
+    position: absolute;
+    top: -7px;
+    left: -2px;
+}
+
+.close_body_button {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.close_body_button div {
+    cursor: pointer;
+    position: relative; 
+    height: 15px;
+    width: 15px;
+}
+.close_body_button .leftright {
+    height: 2px;
+    width: 15px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: var(--dark);
+    border-radius: 2px;
+    transform: rotate(45deg);
+    transition: all .3s ease-in;
+}
+.close_body_button .rightleft {
+    height: 2px;
+    width: 15px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: var(--dark);
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    transition: all .3s ease-in;
+}
+.close_body_button div:hover .leftright {
+    transform: rotate(-45deg);
+    background-color: var(--lightpurple);
+}
+.close_body_button div:hover .rightleft {
+    transform: rotate(45deg);
+    background-color: var(--lightpurple);
+}
+
+.close_body_button div:focus .leftright {
+    transform: rotate(-45deg);
+    background-color: var(--lightpurple);
+}
+.close_body_button div:focus .rightleft {
+    transform: rotate(45deg);
+    background-color: var(--lightpurple);
+}
+
+.close_body_button div:active .leftright {
+    background-color: var(--mediumdarkpurple);
+}
+.close_body_button div:active .rightleft {
+    background-color: var(--mediumdarkpurple);
+}
